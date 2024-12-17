@@ -38,7 +38,7 @@ Exemple :
 
 Ce critère est très large, il englobe :
 
-- l'incitation
-- groupement/distinction entre éléments
-- retour immédiat
-- lisibilité
+- [l'incitation](/01a-incitation)
+- [groupement/distinction entre éléments](/01b-groupement-distinction)
+- [retour immédiat](/01c-feedback)
+- [lisibilité](/01d-lisibilite)

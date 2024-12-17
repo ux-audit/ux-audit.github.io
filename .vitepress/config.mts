@@ -17,7 +17,12 @@ export default defineConfig({
         text: "Critères",
         items: [
           { text: "Introduction", link: "/introduction" },
-          { text: "Guidage", link: "/01-guidage" },
+          { text: "Préliminaires", link: "/preliminaires" },
+          {
+            text: "Guidage",
+            link: "/01-guidage",
+            items: [{ text: "Incitation", link: "/01a-incitation" }],
+          },
         ],
       },
     ],
