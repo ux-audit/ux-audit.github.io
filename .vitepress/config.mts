@@ -17,7 +17,7 @@ export default defineConfig({
         text: "Critères",
         items: [
           { text: "Introduction", link: "/introduction" },
-          { text: "Runtime API Examples", link: "/api-examples" },
+          { text: "Guidage", link: "/01-guidage" },
         ],
       },
     ],
