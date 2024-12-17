@@ -10,6 +10,8 @@ Le site est constitué sous la forme de liste d'articles, chacun traitant d'un p
 
 Ce site est développé avec [Vitepress](https://vitepress.dev/), et il est déployé sur des pages [github](https://github.com/). Le tout gratuit.
 
+Vous pouvez l'améliorer en éditant les pages sur github.
+
 ## Auteur
 
 Jean-Louis GUENEGO, 2024
