@@ -4,34 +4,24 @@ outline: deep
 
 # Incitation
 
-Moyens mis en oeuvre pour amener les utilisateurs à effectuer des actions
-spécifiques.
-
-Mécanismes mis en oeuvre pour faire connaitre aux utilisateurs les alternatives,
-lorsque plusieurs actions sont possibles, en fonction des états ou des contextes
-
-Informations, aides permettant de savoir dans quel état, contexte l'utilisateur
-se trouve par rapport à son objectif.
-
-Moyens d'accessibilité permettant à l'utilisateur d'atteindre son objectif.
-
 ## Amener les utilisateurs à effectuer des actions spécifiques
 
 Voyons par l'exemple d'une interrogation, puis par la suggestion d'une solution
 logique:
 
-> **Je voudrais que les utilisateurs viennent sur mon site ?**
+> **Je voudrais que les utilisateurs viennent sur mon site.**
 
 - Pourquoi ?
 - Parce que sur mon site il y a des informations intéressantes que je voudrais
-  qu'ils sachent.
-- Ah bon ? As tu pensé à faire du SEO ?
+  qu'ils lisent.
+- Avez-vous pensé à mettre en place des mesures SEO (référencement naturel,
+  amélioration de la visibilité sur les moteurs de recherche) ?
 
 ---
 
 > **Je voudrais que les utilisateurs créent un compte sur mon site.**
 
-- Mais pourquoi le feraient ils ?
+- Mais pourquoi vos utilisateurs le feraient-ils ?
 - Mais parce qu'ils en ont besoin pour que je leur envoie ce qu'ils me demandent
   : des produits qu'ils achètent.
 - Eh bien explique leur que pour qu'ils puissent recevoir les produits, ils faut
