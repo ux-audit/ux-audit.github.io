@@ -21,7 +21,15 @@ export default defineConfig({
           {
             text: "Guidage",
             link: "/01-guidage",
-            items: [{ text: "Incitation", link: "/01a-incitation" }],
+            items: [
+              { text: "Incitation", link: "/01a-incitation" },
+              {
+                text: "Groupement / Distinction",
+                link: "/01b-groupement-distinction",
+              },
+              { text: "Incitation", link: "/01a-incitation" },
+              { text: "Incitation", link: "/01a-incitation" },
+            ],
           },
         ],
       },

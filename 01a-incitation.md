@@ -47,12 +47,12 @@ Encore mieux : l'utilisateur peut se passer de comprendre certains aspects du
 métier lorsque on ne lui laisse pas le choix de faire des « bêtises », c'est à
 dire lorsque l'interface le **guide**.
 
-::: tip 😊 Questions à se poser
+::: tip Questions à se poser... 😊
 
 - C'est qui l'utilisateur ? Il vient faire quoi ?
-- Est ce qu'il comprend par où il faut commencer sur le premier écran ?
-- Et ensuite il fait quoi ? Et pourquoi l'utilisateur va t'il continuer ?
-- Y a t'il pas des choses à l'écran inutiles pour ce que l'utilisateur vient
+- comprend-il par où commencer sur le premier écran ?
+- Et ensuite que fait-il ? Et pourquoi l'utilisateur va-t-il continuer ?
+- Y a-t-il pas des choses à l'écran inutiles pour ce que l'utilisateur vient
   faire ?
 
 :::
@@ -67,25 +67,17 @@ et ne peut être réduit
 Ce n'est pas pour autant que les écrans doivent être complexes, notamment
 lorsque l'utilisateur doit faire des choix.
 
-::: tip 😊 Astuces
+::: tip Astuces ! 😊
 
-1. Eviter de faire choisir l'utilisateur mais le mettre en situation de accepter
-   ou refuser une proposition.
+1. Eviter de laisser choisir l'utilisateur mais le mettre en situation de
+   accepter ou refuser une proposition.
 2. Eviter de faire des questions avec des boutons OUI/NON
-3. Appliquer la loi de Fitts :
-
-- Préférer les boutons qui contourent le choix plutôt que les cases à cocher ou
-  les boutons radio
-- Si boutons radio ou case à cocher alors agrandir les surfaces cliquables
-
-4. Mettre en valeur un choix parmi des boutons secondaires avec un bouton
+3. Mettre en valeur un choix parmi des boutons secondaires avec un bouton
    primaire.
-5. Utiliser un bouton "etcetera" pour mettre des choix rares en retrait.
-6. Ne faire apparaitre les questions suivantes après que l'utilisateur ait
-   répondu aux questions précédentes. C'est le principe de la "progressive
-   disclosure"
-
-:::
+4. Ne faire apparaitre les questions suivantes après que l'utilisateur ait
+   répondu aux questions précédentes. C'est le principe de la
+   [progressive disclosure](https://www.uxpin.com/studio/blog/what-is-progressive-disclosure/)
+   :::
 
 ## Informations, aides permettant de savoir dans quel état, contexte l'utilisateur se trouve par rapport à son objectif.
 
@@ -93,7 +85,7 @@ En général, il est nécessaire que l'utilisateur sache toujours où il en est,
 que le reste à faire ne soit pas pénible à identifier sur l'interface et ne
 paraisse pas difficile à achever.
 
-::: tip 😊 A vérifier
+::: tip Astuces ! 😊
 
 1. Lorsque l'utilisateur parcours plusieurs écrans techniques différents, un
    [fil d'ariane](https://www.redacteur.com/blog/wordpress-fil-ariane-site-web/)
@@ -109,7 +101,8 @@ paraisse pas difficile à achever.
    - soit se désactiver pour interdire la soumission
    - soit ̂être actif et servir de débogueur en scrollant vers le champ mal
      rempli.
-5. Un champ de saisie mal rempli devrait avoir un message d'erreur.
+5. Un champ de saisie mal rempli devrait avoir un message d'erreur. Ce message
+   devrait être proche du champ de saisie, généralement en dessous.
 6. Un message d'erreur ne devrait pas provoquer de
    [Cumulative Layout Shift](https://web.dev/articles/cls?hl=fr).
 7. Eviter les champs de saisie libre. Essayer de trouver un équivalent qui
@@ -119,6 +112,23 @@ paraisse pas difficile à achever.
    premier champ du formulaire.
 9. Lorsque un champ de saisie guidé est complété, il est recommandé de mettre le
    focus sur le suivant pour inviter l'utilisateur dans sa saisie.
+10. Lorsqu'un champ de saisie est complété et que sa valeur parait bonne
+    vis-à-vis du métier, alors ne pas hésiter à l'indiquer et à féliciter
+    brièvement l'utilisateur (par un :heavy_check_mark:)
+11. Filtrage du clavier sur champ de saisie. Lorsqu'un champ de saisie accepte
+    uniquement certains caractères, filtrer les touches claviers qui ne sont pas
+    des valeurs permises. Exemple : ne pas laisser rentrer des caractères
+    alphabétiques lorsqu'un nombre est attendu.
+12. Indiquer dans le champ des placeholders avec des exemples de valeurs. Un
+    exemple est parfois plus parlant qu'un label.
+13. Indiquer le label d'un champ de préférence sur le dessus du champ. Il est
+    ainsi dans la zone de vision de l'utilisateur.
+14. Si un champ de saisie correspond à un code (ex: numéro de sécu, carte bleue,
+    téléphone) alors insérer des espaces entre blocs de code pour améliorer la
+    lisibilité du code.
+15. Indiquer par un tooltips, ou un bouton (?) donnant une aide plus détaillée
+    les champs dont le label risque de ne pas être bien compris.
+16. Indiquer par une asterisque (\*) les champs obligatoires.
 
 :::
 
