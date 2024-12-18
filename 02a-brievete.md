@@ -4,7 +4,10 @@ outline: deep
 
 # Brièveté
 
-Brièveté de lecture, brièveté d'action de saisie, de clic et de mouvement.
+Bastien & Scapin recensent deux types :
+
+- concision (brièveté de lecture),
+- actions minimales (brièveté d'action de saisie, de clic et de mouvement).
 
 ::: tip Astuces 😊
 
@@ -17,8 +20,10 @@ Brièveté de lecture, brièveté d'action de saisie, de clic et de mouvement.
 4. Enlever tous les widgets qui ne semblent pas utiles sur l'interface.
 5. Reléguer des fonctionnalités dans un bouton "et cetera".
 6. Utiliser la complétion automatique dans les champs là où nécessaire.
-7. Préselectionner un choix et laisser l'utilisateur changer que si nécessaire
+7. Ne laisser que le moins de choix possible en excluant tous les choix non
+   valides.
+8. Préselectionner un choix et laisser l'utilisateur changer que si nécessaire
    plutôt que de laisser l'utilisateur choisir systématiquement.
-8. Utiliser des raccourcis claviers pour des actions répétitives.
+9. Utiliser des raccourcis claviers pour des actions répétitives.
 
 :::
