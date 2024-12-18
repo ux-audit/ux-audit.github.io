@@ -87,6 +87,6 @@ sont utilisées pour mettre ensemble ou au contraire distinguer des groupes.
      - verticale : image en haut, texte, et boutons en bas.
      - horizontale : image à gauche, texte, et boutons à droite.
 5. Eviter les guirlandes d'actions dans des listes et préférer des items
-   selectionnables avec bar d'outils en haut de la liste.
+   selectionnables avec barres d'outils en haut de la liste.
 
 :::
