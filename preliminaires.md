@@ -22,3 +22,8 @@ et met en retrait les actions secondaires.
 
 Moins l'utilisateur a besoin de réflechir pour comprendre ce qu'il doit faire,
 mieux c'est.
+
+Pour aller plus loin, ne pas hésiter à lire les ouvrages suivants :
+
+- Steve Krug : don't make me think.
+- Steve Shoger, Adam Watham : Refactoring UI
