@@ -31,6 +31,17 @@ export default defineConfig({
               { text: "Lisibilité", link: "/01d-lisibilite" },
             ],
           },
+          {
+            text: "Charge de travail",
+            link: "/02-charge-de-travail",
+            items: [
+              { text: "Brièveté", link: "/02a-brievete" },
+              {
+                text: "Densité informationnelle",
+                link: "/02b-densite-informationnelle",
+              },
+            ],
+          },
         ],
       },
     ],
