@@ -83,7 +83,9 @@ sont utilisées pour mettre ensemble ou au contraire distinguer des groupes.
 
 4. Utiliser des paradigmes de mise en page :
    - une carte est un duo image, et texte.
-   - une carte avec action : image en haut, texte, et boutons en bas.
+   - une carte avec action :
+     - verticale : image en haut, texte, et boutons en bas.
+     - horizontale : image à gauche, texte, et boutons à droite.
 5. Eviter les guirlandes d'actions dans des listes et préférer des items
    selectionnables avec bar d'outils en haut de la liste.
 

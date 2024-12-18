@@ -40,5 +40,5 @@ Ce critère est très large, il englobe :
 
 1. [l'incitation](/01a-incitation)
 2. [groupement/distinction entre éléments](/01b-groupement-distinction)
-3. [retour immédiat](/01c-feedback)
+3. [Feedback immédiat](/01c-feedback-immediat)
 4. [lisibilité](/01d-lisibilite)
