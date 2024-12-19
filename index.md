@@ -17,11 +17,15 @@ hero:
 features:
   - title: Guidage
     icon: 🛒
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+    details:
+      Inciter l'utilisateur, lui permettre d'identifier rapidement, ne pas le
+      laisser se tromper, assurer la lisibilité, etc.
     link: /criteres/01-guidage
   - title: Charge de travail
     icon: 🛠️
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+    details:
+      Perceptive, mnésique, active, il faut diminuer la charge de travail tout
+      en maintenant la bonne et rapide compréhension.
   - title: Contrôle explicite
     icon: 🚗
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit

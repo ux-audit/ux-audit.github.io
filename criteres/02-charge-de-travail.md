@@ -24,8 +24,8 @@ bouger la souris, etc.
 
 Les critères sont organisés en deux parties :
 
-- [la brièveté](/02a-brievete),
-- [la densité informationnelle](/02b-densite-informationnelle)
+- [la brièveté](./02a-brievete),
+- [la densité informationnelle](./02b-densite-informationnelle)
 
 Le design minimaliste a pour objet de diminuer le nombre de signifiances d'un
 objet de design (ici, une interface de logiciel) tout en conservant la bonne
