@@ -62,5 +62,9 @@ export default defineConfig({
         link: "https://github.com/ux-audit/ux-audit.github.io",
       },
     ],
+    footer: {
+      message: "Site publié sous licence MIT",
+      copyright: `Copyright © 2019-${new Date().getFullYear()} Jean-Louis GUENEGO`,
+    },
   },
 });

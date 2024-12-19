@@ -26,9 +26,11 @@ features:
     details:
       Perceptive, mnésique, active, il faut diminuer la charge de travail tout
       en maintenant la bonne et rapide compréhension.
+    link: /criteres/02-charge-de-travail
   - title: Contrôle explicite
     icon: 🚗
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+    link: /criteres/03-controle-explicite
   - title: Adaptabilité
     icon: ☃
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
