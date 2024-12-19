@@ -24,6 +24,7 @@ export default defineConfig({
           {
             text: "Guidage",
             link: "/01-guidage",
+            collapsed: true,
             items: [
               { text: "Incitation", link: "/01a-incitation" },
               {
@@ -37,6 +38,7 @@ export default defineConfig({
           {
             text: "Charge de travail",
             link: "/02-charge-de-travail",
+            collapsed: true,
             items: [
               { text: "Brièveté", link: "/02a-brievete" },
               {
@@ -48,6 +50,7 @@ export default defineConfig({
           {
             text: "Contrôle explicite",
             link: "/03-controle-explicite",
+            collapsed: true,
             items: [
               {
                 text: "Actions explicites",
@@ -62,6 +65,7 @@ export default defineConfig({
           {
             text: "Adaptabilité",
             link: "/04-adaptabilite",
+            collapsed: true,
             items: [
               {
                 text: "Flexibilité",
@@ -76,6 +80,7 @@ export default defineConfig({
           {
             text: "Gestion des erreurs",
             link: "/05-gestion-erreurs",
+            collapsed: true,
             items: [
               {
                 text: "Protection contre les erreurs",
