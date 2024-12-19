@@ -73,6 +73,24 @@ export default defineConfig({
               },
             ],
           },
+          {
+            text: "Gestion des erreurs",
+            link: "/05-gestion-erreurs",
+            items: [
+              {
+                text: "Protection contre les erreurs",
+                link: "/05a-protection-erreurs",
+              },
+              {
+                text: "Qualité des messages d'erreurs",
+                link: "/05b-qualite-message-erreurs",
+              },
+              {
+                text: "Correction des erreurs",
+                link: "/05c-correction-erreurs",
+              },
+            ],
+          },
         ],
       },
       {
