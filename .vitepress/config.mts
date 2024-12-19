@@ -59,6 +59,20 @@ export default defineConfig({
               },
             ],
           },
+          {
+            text: "Adaptabilité",
+            link: "/04-adaptabilite",
+            items: [
+              {
+                text: "Flexibilité",
+                link: "/04a-flexibilite",
+              },
+              {
+                text: "Prise en compte de l'expérience de l'utilisateur",
+                link: "/04b-experience-utilisateur",
+              },
+            ],
+          },
         ],
       },
       {
