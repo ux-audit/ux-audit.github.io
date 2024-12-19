@@ -45,6 +45,20 @@ export default defineConfig({
               },
             ],
           },
+          {
+            text: "Contrôle explicite",
+            link: "/03-controle-explicite",
+            items: [
+              {
+                text: "Actions explicites",
+                link: "/03a-actions-explicites",
+              },
+              {
+                text: "Contrôle utilisateur",
+                link: "/03b-controle-utilisateur",
+              },
+            ],
+          },
         ],
       },
       {
