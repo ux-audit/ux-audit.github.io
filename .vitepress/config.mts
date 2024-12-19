@@ -5,16 +5,19 @@ export default defineConfig({
   title: "Critères Ergonomiques",
   description:
     "Utiles pour trouver des points d'améliorations sur des interfaces logicielles.",
+  head: [["link", { rel: "shortcut icon", href: "/logo.svg" }]],
   themeConfig: {
+    logo: "/logo.svg",
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: "Critères", link: "/introduction" },
-      { text: "Exemples", link: "/exemples" },
+      { text: "Critères", link: "/criteres/introduction" },
+      { text: "Exemples", link: "/exemples/introduction" },
     ],
 
     sidebar: [
       {
         text: "Critères",
+        base: "/criteres",
         items: [
           { text: "Introduction", link: "/introduction" },
           { text: "Préliminaires", link: "/preliminaires" },
@@ -46,12 +49,18 @@ export default defineConfig({
       },
       {
         text: "Exemples",
-        items: [{ text: "Label au dessus", link: "/exemples/label_dessus" }],
+        items: [
+          { text: "Introduction aux exemples", link: "/exemples/introduction" },
+          { text: "Label au dessus", link: "/exemples/label_dessus" },
+        ],
       },
     ],
 
     socialLinks: [
-      { icon: "github", link: "https://github.com/vuejs/vitepress" },
+      {
+        icon: "github",
+        link: "https://github.com/ux-audit/ux-audit.github.io",
+      },
     ],
   },
 });

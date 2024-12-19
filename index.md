@@ -9,15 +9,16 @@ hero:
   actions:
     - theme: brand
       text: Démarrer
-      link: /introduction
+      link: /criteres/introduction
     - theme: alt
       text: Examples
-      link: /examples
+      link: /exemples/introduction
 
 features:
   - title: Guidage
     icon: 🛒
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+    link: /criteres/01-guidage
   - title: Charge de travail
     icon: 🛠️
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
