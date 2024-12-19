@@ -31,5 +31,8 @@ est bien de demander une confirmation de l'action.
 4. Les actions devraient être là où l'utilisateur cherche en premier.
 5. Les formulaires ne devraient être envoyés qu'après avoir cliqué sur un bouton
    validation.
+6. L'interface ne devrait pas faire d'actions métiers qui n'ont pas été
+   souhaitées par l'utilisateur. Une action ne devrait pas cacher une autre
+   action.
 
 :::
