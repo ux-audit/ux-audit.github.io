@@ -96,6 +96,18 @@ export default defineConfig({
               },
             ],
           },
+          {
+            text: "Homogénéité / Cohérence",
+            link: "/06-homogeneite-coherence",
+          },
+          {
+            text: "Homogénéité / Cohérence",
+            link: "/07-signifiance-denomination",
+          },
+          {
+            text: "Compatibilité",
+            link: "/08-compatibilite",
+          },
         ],
       },
       {
