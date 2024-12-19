@@ -3,22 +3,40 @@
 layout: home
 
 hero:
-  name: "UX Audit"
-  text: "A VitePress Site"
-  tagline: My great project tagline
+  name: "UX"
+  text: "Audit"
+  tagline: Améliorer vos interfaces logicielles
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: Démarrer
+      link: /introduction
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: Examples
+      link: /examples
 
 features:
-  - title: Feature A
+  - title: Guidage
+    icon: 🛒
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
+  - title: Charge de travail
+    icon: 🛠️
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
+  - title: Contrôle explicite
+    icon: 🚗
+    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: Adaptabilité
+    icon: ☃
+    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: Gestion des erreurs
+    icon: 💥
+    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: Homogénéité et cohérence
+    icon: 🍔
+    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: Signifiance des codes et dénomination
+    icon: 🥐
+    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: Compatibilité
+    icon: 🚞
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
