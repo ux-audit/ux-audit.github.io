@@ -2,7 +2,7 @@
 outline: deep
 ---
 
-# Adaptabilité
+# Gestion des erreurs
 
 Trois catégories :
 

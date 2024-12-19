@@ -34,16 +34,21 @@ features:
   - title: Adaptabilité
     icon: ☃
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+    link: /criteres/04-adaptabilite
   - title: Gestion des erreurs
     icon: 💥
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+    link: /criteres/05-gestion-erreurs
   - title: Homogénéité et cohérence
     icon: 🍔
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+    link: /criteres/06-homogeneite-coherence
   - title: Signifiance des codes et dénomination
     icon: 🥐
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+    link: /criteres/07-signifiance-denomination
   - title: Compatibilité
     icon: 🚞
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+    link: /criteres/08-compatibilite
 ---
