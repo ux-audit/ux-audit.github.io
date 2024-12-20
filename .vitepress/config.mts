@@ -101,7 +101,7 @@ export default defineConfig({
             link: "/06-homogeneite-coherence",
           },
           {
-            text: "Homogénéité / Cohérence",
+            text: "Signifiance des codes et dénomination",
             link: "/07-signifiance-denomination",
           },
           {
