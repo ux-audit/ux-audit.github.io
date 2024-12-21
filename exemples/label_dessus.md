@@ -10,3 +10,15 @@ outline: deep
     <input type="text">
   </label>
 </div>
+
+:x:
+
+:heavy_check_mark:❌✔
+
+{{ 1 + 1 }}
+
+<script setup>
+import ExampleForm from './components/ExampleForm.vue'
+</script>
+
+<ExampleForm />
