@@ -1,3 +1,3 @@
 <template>
-  <p>Good Form xxx</p>
+  <p class="font-bold text-red-500">Good Form xxx yyy</p>
 </template>

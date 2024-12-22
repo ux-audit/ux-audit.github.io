@@ -17,7 +17,7 @@ outline: deep
 
 {{ 1 + 1 }}
 
-<script setup>
+<script lang="ts" setup>
 import ExampleForm from './components/ExampleForm.vue'
 </script>
 
