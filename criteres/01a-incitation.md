@@ -121,8 +121,8 @@ paraisse pas difficile à achever.
     alphabétiques lorsqu'un nombre est attendu.
 12. Indiquer dans le champ des placeholders avec des exemples de valeurs. Un
     exemple est parfois plus parlant qu'un label.
-13. Indiquer le label d'un champ de préférence sur le dessus du champ. Il est
-    ainsi dans la zone de vision de l'utilisateur.
+13. [Indiquer le label d'un champ de préférence sur le dessus du champ](../exemples/label_dessus.md).
+    Il est ainsi dans la zone de vision de l'utilisateur.
 14. Si un champ de saisie correspond à un code (ex: numéro de sécu, carte bleue,
     téléphone) alors insérer des espaces entre blocs de code pour améliorer la
     lisibilité du code.

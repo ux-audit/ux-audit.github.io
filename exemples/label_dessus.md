@@ -4,21 +4,11 @@ outline: deep
 
 # Label au dessus des champs
 
-<div>
-  <label>
-    <span>Nom</span>
-    <input type="text">
-  </label>
-</div>
-
-:x:
-
-:heavy_check_mark:❌✔
-
-{{ 1 + 1 }}
-
 <script lang="ts" setup>
-import ExampleForm from './components/ExampleForm.vue'
+import BadForm from './label_dessus/BadForm.vue'
+import GoodForm from './label_dessus/GoodForm.vue'
 </script>
 
-<ExampleForm />
+❌ <BadForm />
+
+✔ <GoodForm />
