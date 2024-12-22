@@ -5,17 +5,19 @@ outline: deep
 # Introduction
 
 Ce site a pour objectif d'aider un consultant UX à trouver des points
-d'amélioration d'interfaces. Cette activité s'appelle la réalisation d'un audit
-ergonomique de logiciel.
+d'amélioration d'interfaces existante. Cette activité s'appelle la réalisation
+d'un audit ergonomique de logiciel.
 
-L'audit ergonomique est utile, bien entendu, mais moins que le test
+L'audit ergonomique est efficace, bien entendu, mais moins que le test
 d'utilisabilité.
 
-Le test d'utilisabilité consiste à recruter un utilisateur, vrai, réputé
-sincère, en situation de découverte du logiciel, puis à observer cet utilisateur
-entrain de réaliser un objectif utile. Les observateurs notent toutes les
-émotions négatives rencontrées puis les débriefent en pouvant suggérer une ou
-plusieurs pistes de solution pour gommer ces émotions négatives à l'avenir.
+Parce que le test d'utilisabilité est une méthode impliquant l'utilisateur
+(méthode participative), et que l'audit ergonomique non (méthode experte). Le
+test d'utilisabilité consiste à recruter un utilisateur, vrai, réputé sincère,
+découvrant le logiciel, puis à observer cet utilisateur entrain de réaliser un
+objectif utile. Les observateurs notent toutes les émotions négatives
+rencontrées puis les débriefent en pouvant suggérer une ou plusieurs pistes de
+solution pour gommer ces émotions négatives à l'avenir.
 
 Ce site ne traite pas du test d'utilisabilité. Voir pour ce sujet l'excellent
 ouvrage de Steve Krug :
