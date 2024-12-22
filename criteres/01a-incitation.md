@@ -50,7 +50,7 @@ dire lorsque l'interface le **guide**.
 ::: tip Questions à se poser... 😊
 
 - C'est qui l'utilisateur ? Il vient faire quoi ?
-- comprend-il par où commencer sur le premier écran ?
+- Comprend-il par où commencer sur le premier écran ?
 - Et ensuite que fait-il ? Et pourquoi l'utilisateur va-t-il continuer ?
 - Y a-t-il pas des choses à l'écran inutiles pour ce que l'utilisateur vient
   faire ?
