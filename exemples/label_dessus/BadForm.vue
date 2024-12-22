@@ -25,7 +25,9 @@
       <div class="table-row">
         <div class="table-cell"></div>
         <div class="table-cell">
-          <button class="w-full rounded bg-gray-800 px-4 py-2 text-white">
+          <button
+            class="w-full rounded bg-[--vp-c-brand-1] px-4 py-2 text-white"
+          >
             Suivant >
           </button>
         </div>

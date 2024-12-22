@@ -17,7 +17,9 @@
         <div class="h-6"></div>
       </label>
 
-      <button class="mt-16 w-full rounded bg-gray-800 px-4 py-2 text-white">
+      <button
+        class="mt-16 w-full rounded bg-[--vp-c-brand-1] px-4 py-2 text-white"
+      >
         Suivant >
       </button>
     </form>
