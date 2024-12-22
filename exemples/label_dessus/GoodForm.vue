@@ -1,5 +1,5 @@
 <template>
-  <div class="flex w-96 bg-gray-200 p-4">
+  <div class="flex w-full max-w-80 bg-gray-200 p-4">
     <form class="flex grow flex-col gap-2 rounded bg-white p-4 shadow-lg">
       <label class="flex flex-col">
         <span class=""> Nom de famille* </span>

@@ -2,7 +2,7 @@
 outline: deep
 ---
 
-# Prepositionner
+# Prépositionner
 
 Eviter de laisser l'utilisateur devoir faire un choix à chaque fois qu'il fait
 une action fréquente. Prépositionner sur son choix le plus probable. Cela évite
