@@ -18,4 +18,10 @@
       @apply bg-[--vp-c-brand-2] text-white;
     }
   }
+
+  .btn-select {
+    &:hover {
+      @apply bg-[--vp-c-brand-1] text-white;
+    }
+  }
 }

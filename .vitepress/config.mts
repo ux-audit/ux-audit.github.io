@@ -120,6 +120,14 @@ export default defineConfig({
             text: "Boutons primaires et secondaires",
             link: "/exemples/boutons-primaires-et-secondaires",
           },
+          {
+            text: "Eviter oui/non",
+            link: "/exemples/eviter-oui-non",
+          },
+          {
+            text: "Divulgation progressive",
+            link: "/exemples/divulgation-progressive",
+          },
         ],
       },
     ],

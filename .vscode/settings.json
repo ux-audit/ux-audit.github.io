@@ -1,5 +1,7 @@
 {
   "files.associations": {
     "*.css": "tailwindcss"
-  }
+  },
+  "emmet.excludeLanguages": [],
+  "emmet.includeLanguages": { "markdown": "html" }
 }
