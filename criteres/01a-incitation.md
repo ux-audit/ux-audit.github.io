@@ -70,7 +70,9 @@ lorsque l'utilisateur doit faire des choix.
 ::: tip Astuces ! 😊
 
 1. Eviter de laisser choisir l'utilisateur mais le mettre en situation de
-   accepter ou refuser une proposition.
+   accepter ou refuser une proposition. Utiliser la technique des
+   [boutons primaires et secondaires](../exemples/boutons-primaires-et-secondaires),
+   ou [prépositionner](../exemples/prepositionner) les choix.
 2. Eviter de faire des questions avec des boutons OUI/NON
 3. Mettre en valeur un choix parmi des boutons secondaires avec un bouton
    primaire.
