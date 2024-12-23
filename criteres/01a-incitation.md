@@ -75,8 +75,9 @@ lorsque l'utilisateur doit faire des choix.
    [des questions avec des boutons OUI/NON](../exemples/eviter-oui-non).
 4. Ne faire apparaitre les questions suivantes après que l'utilisateur ait
    répondu aux questions précédentes. C'est le principe de la
-   [progressive disclosure](https://www.uxpin.com/studio/blog/what-is-progressive-disclosure/)
-   :::
+   [divulgation progressive](../exemples/divulgation-progressive)
+
+:::
 
 ## Informations, aides permettant de savoir dans quel état, contexte l'utilisateur se trouve par rapport à son objectif.
 
