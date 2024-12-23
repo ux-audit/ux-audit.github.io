@@ -40,7 +40,11 @@ const handleClick = (choice: string) => {
     :class="visible ? 'scale-y-100' : 'scale-y-0'"
   >
     <span class="">{{ props.field.label }}</span>
-    <VueDatePicker v-model="model" :enable-time-picker="false">
+    <VueDatePicker
+      v-model="model"
+      :enable-time-picker="false"
+      :flow="['year', 'month', 'calendar']"
+    >
       <template
         #dp-input="{
           value,
