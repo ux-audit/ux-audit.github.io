@@ -2,7 +2,7 @@ import { defineConfig } from "vitepress";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "Critères Ergonomiques",
+  title: "UX Audit",
   description:
     "Utiles pour trouver des points d'améliorations sur des interfaces logicielles.",
   head: [["link", { rel: "shortcut icon", href: "/logo.svg" }]],
