@@ -1,7 +1,5 @@
 <script setup lang="ts">
-import { onMounted } from "vue";
 import { Field } from "./interfaces/Field";
-import { initFlowbite } from "flowbite";
 
 const props = defineProps<{
   field: Field;
@@ -14,10 +12,6 @@ const handleClick = (choice: string) => {
   console.log("click");
   model.value = choice;
 };
-
-onMounted(() => {
-  initFlowbite();
-});
 </script>
 
 <template>
