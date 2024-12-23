@@ -30,16 +30,16 @@ const handleInput = ($event: Event) => {
     :class="visible ? 'scale-y-100' : 'scale-y-0'"
   >
     <span class="">{{ props.field.label }}</span>
-    <div class="flex gap-2">
-      <button
-        type="button"
+    <div class="flex flex-wrap gap-2">
+      <div
         class="btn btn-select"
         v-for="choice in props.field.choices"
         :key="choice"
         @click="handleClick(choice)"
+        :class="model === choice && 'btn-selected'"
       >
         {{ choice }}
-      </button>
+      </div>
     </div>
   </label>
   <label
