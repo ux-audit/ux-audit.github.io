@@ -8,14 +8,14 @@
     border: 2px solid var(--vp-c-brand-1);
 
     &:hover {
-      @apply bg-gray-100;
+      @apply bg-[--vp-c-gray-3] text-[--vp-c-brand-1];
     }
   }
 
   .btn-primary {
     @apply bg-[--vp-c-brand-1] text-white;
     &:hover {
-      @apply bg-[--vp-c-brand-2];
+      @apply bg-[--vp-c-brand-2] text-white;
     }
   }
 }
