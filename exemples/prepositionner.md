@@ -30,6 +30,12 @@ Quand vous sélectionner un article sur un site d'ecommerce, on vous demande pas
 tout de suite la quantité, elle est prépositionnée sur 1. Mais vous pouvez
 l'ajuster par la suite si vous souhaitez.
 
+### Moyens de paiement
+
+Prépositionner sur le dernier moyen de paiement utilisé par l'utilisateur. A
+date de rédaction de cet article, Amazon, Booking le font. Les navigateurs web
+Google Chrome, Safari autoremplissent les champs des cartes bancaires.
+
 ## Contre exemples
 
 Quand l'utilisateur considère qu'à chaque passage sur le processus nominal, il
