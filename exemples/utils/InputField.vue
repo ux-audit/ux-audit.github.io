@@ -1,6 +1,5 @@
 <script setup lang="ts">
 import { Field } from "./interfaces/Field";
-import VueDatePicker from "@vuepic/vue-datepicker";
 
 const props = defineProps<{
   field: Field;
@@ -40,26 +39,10 @@ const handleClick = (choice: string) => {
     :class="visible ? 'scale-y-100' : 'scale-y-0'"
   >
     <span class="">{{ props.field.label }}</span>
-    <VueDatePicker
+    <input
+      type="date"
+      class="w-full rounded-md bg-gray-200 p-2"
       v-model="model"
-      :enable-time-picker="false"
-      :flow="['year', 'month', 'calendar']"
-    >
-      <template
-        #dp-input="{
-          value,
-          onInput,
-          onEnter,
-          onTab,
-          onClear,
-          onBlur,
-          onKeypress,
-          onPaste,
-          isMenuOpen,
-        }"
-      >
-        <input type="text" class="w-full rounded-md bg-gray-200 p-2" :value />
-      </template>
-    </VueDatePicker>
+    />
   </label>
 </template>
