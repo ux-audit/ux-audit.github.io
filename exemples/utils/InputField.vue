@@ -1,5 +1,7 @@
 <script setup lang="ts">
+import { onMounted } from "vue";
 import { Field } from "./interfaces/Field";
+import { initFlowbite } from "flowbite";
 
 const props = defineProps<{
   field: Field;
@@ -13,14 +15,9 @@ const handleClick = (choice: string) => {
   model.value = choice;
 };
 
-const handleInput = ($event: Event) => {
-  if ($event.target !== null) {
-    if ($event.target instanceof HTMLInputElement) {
-      console.log("update input", typeof $event.target.value);
-      model.value = $event.target.value;
-    }
-  }
-};
+onMounted(() => {
+  initFlowbite();
+});
 </script>
 
 <template>
@@ -48,11 +45,6 @@ const handleInput = ($event: Event) => {
     :class="visible ? 'scale-y-100' : 'scale-y-0'"
   >
     <span class="">{{ props.field.label }}</span>
-    <input
-      type="date"
-      :value="model"
-      @input="handleInput($event)"
-      class="rounded-md bg-gray-200 p-2"
-    />
+    <input type="date" v-model="model" class="rounded-md bg-gray-200 p-2" />
   </label>
 </template>

@@ -53,6 +53,7 @@ const start = () => {
         />
       </template>
       <button
+        type="button"
         v-if="currentIndex === 3"
         class="btn btn-link mt-16 self-start"
         @click="reset()"
