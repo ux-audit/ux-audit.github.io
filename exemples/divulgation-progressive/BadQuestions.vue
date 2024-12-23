@@ -9,7 +9,7 @@ const fields = reactive<Field[]>([
     type: "select",
     choices: ["Française", "Autre"],
   },
-  { label: "Date de naissance", type: "date", value: "" },
+  { label: "Date de naissance", type: "date" },
   { label: "Genre", type: "select", choices: ["Masculin", "Féminin", "Autre"] },
 ]);
 
@@ -20,9 +20,8 @@ const currentIndex = computed(() => {
     if (field.value !== undefined) {
       index++;
     }
-    break;
+    // do not put break here because the computed will not work after twice !
   }
-  console.log("index: ", index);
   return index;
 });
 </script>
@@ -35,8 +34,6 @@ const currentIndex = computed(() => {
         :visible="index <= currentIndex"
         v-model="field.value"
       />
-      <span>FV : {{ field.value }}</span>
     </template>
   </form>
-  {{ fields }}
 </template>

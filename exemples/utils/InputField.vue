@@ -12,21 +12,18 @@ const handleClick = (choice: string) => {
   console.log("click");
   model.value = choice;
 };
+
+const handleInput = ($event: Event) => {
+  if ($event.target !== null) {
+    if ($event.target instanceof HTMLInputElement) {
+      console.log("update input", typeof $event.target.value);
+      model.value = $event.target.value;
+    }
+  }
+};
 </script>
 
 <template>
-  <label
-    v-if="props.field.type === 'text'"
-    class="flex flex-col transition-all"
-    :class="visible ? 'scale-y-100' : 'scale-y-0'"
-  >
-    <span class="">{{ props.field.label }}</span>
-    <input
-      type="text"
-      class="flex rounded-md bg-gray-200 p-2"
-      v-model="model"
-    />
-  </label>
   <label
     v-if="props.field.type === 'select'"
     class="flex flex-col gap-2 transition-all"
@@ -51,7 +48,11 @@ const handleClick = (choice: string) => {
     :class="visible ? 'scale-y-100' : 'scale-y-0'"
   >
     <span class="">{{ props.field.label }}</span>
-    <input type="date" v-model="model" class="rounded-md bg-gray-200 p-2" />
+    <input
+      type="date"
+      :value="model"
+      @input="handleInput($event)"
+      class="rounded-md bg-gray-200 p-2"
+    />
   </label>
-  <span>Model: {{ model }}</span>
 </template>
