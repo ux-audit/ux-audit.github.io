@@ -39,7 +39,7 @@ bien que ce dernier soit interdit d'utilisation dans ses visuels sauf si on est
 un ministère. Le site [designsystemsrepo.com](https://designsystemsrepo.com)
 s'efforce de lister des exemples de système de design.
 
-## Menu non uniforme
+## Trop de similarité
 
 Dans cet exemple, on a mis un peu trop de similarité entre label, champ et
 boutons.
