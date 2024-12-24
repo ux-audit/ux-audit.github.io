@@ -6,6 +6,7 @@ outline: deep
 import LumiereVacillante from "./utils/LumiereVacillante.vue"
 import FormulaireVacillant from "./utils/FormulaireVacillant.vue"
 import TableauEtBarreOutils from "./utils/TableauEtBarreOutils.vue"
+import PlayPause from "./utils/PlayPause.vue"
 
 </script>
 
@@ -48,4 +49,7 @@ décalage, et donc pas de CLS.
 
 Un label de bouton dont la longueur change, fait bouger la taille du bouton.
 
-<BoutonCLS />
+La correction se fait en indiquant une largeur fixe au bouton, suffisamment
+grande pour englober les labels potentiels.
+
+<PlayPause />
