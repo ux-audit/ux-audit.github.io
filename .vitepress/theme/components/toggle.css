@@ -15,5 +15,9 @@
         @apply left-auto right-[0.25rem] bg-[--vp-c-brand-1];
       }
     }
+
+    &:focus {
+      @apply rounded-full outline outline-[--vp-c-brand-1];
+    }
   }
 }

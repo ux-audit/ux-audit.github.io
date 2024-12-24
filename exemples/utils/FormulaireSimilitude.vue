@@ -59,5 +59,12 @@ const correctGap = ref(false);
         placeholder="Ex: Consultant UX"
       />
     </label>
+    <button
+      type="button"
+      class="mt-16"
+      :class="correctGap && 'btn btn-primary'"
+    >
+      Valider
+    </button>
   </form>
 </template>
