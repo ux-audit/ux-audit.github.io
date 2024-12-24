@@ -28,7 +28,8 @@ point particulier. Il fait une synthèse de plusieurs listes de critères
 ergonomiques existant comme par exemple
 [Bastien & Scapin](https://inria.hal.science/inria-00070012/file/RT-0156.pdf),
 ou [Jakob Nielsen](https://www.nngroup.com/articles/ten-usability-heuristics/).
-Le plan du site reprend le même classement que les critères de Bastien & Scapin.
+Le plan du site reprend le même classement que les critères de Bastien & Scapin
+publiés à l'INRIA en 1993.
 
 Ce site est développé avec [Vitepress](https://vitepress.dev/), et il est
 déployé sur des pages [github](https://github.com/). Le tout gratuit.
