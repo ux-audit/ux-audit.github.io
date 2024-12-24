@@ -132,6 +132,10 @@ export default defineConfig({
             text: "Champ avec espaces",
             link: "/exemples/champ-espaces",
           },
+          {
+            text: "Disposition vacillante",
+            link: "/exemples/disposition-vacillante",
+          },
         ],
       },
     ],

@@ -39,4 +39,28 @@
       @apply bg-[--vp-c-brand-2] text-white;
     }
   }
+
+  input.switch {
+    @apply relative h-6 w-12 cursor-pointer appearance-none;
+    &::before {
+      @apply absolute flex h-6 w-12 rounded-full border-[0.1rem] border-black content-['_'];
+    }
+    &::after {
+      @apply absolute bottom-[0.25rem] left-[0.25rem] flex h-4 w-4 rounded-full bg-black content-['_'];
+    }
+    &:checked {
+      &::before {
+        @apply border-[--vp-c-brand-1];
+      }
+      &::after {
+        @apply left-auto right-[0.25rem] bg-[--vp-c-brand-1];
+      }
+    }
+  }
+}
+
+.blackBackground {
+  background-color: black;
+  color: white;
+  transition: all 0.2s;
 }
