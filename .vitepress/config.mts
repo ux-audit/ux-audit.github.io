@@ -128,6 +128,10 @@ export default defineConfig({
             text: "Divulgation progressive",
             link: "/exemples/divulgation-progressive",
           },
+          {
+            text: "Champ avec espaces",
+            link: "/exemples/champ-espaces",
+          },
         ],
       },
     ],

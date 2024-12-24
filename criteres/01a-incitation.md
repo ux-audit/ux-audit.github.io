@@ -124,8 +124,8 @@ paraisse pas difficile à achever.
 13. [Indiquer le label d'un champ de préférence sur le dessus du champ](../exemples/label_dessus.md).
     Il est ainsi dans la zone de vision de l'utilisateur.
 14. Si un champ de saisie correspond à un code (ex: numéro de sécu, carte bleue,
-    téléphone) alors insérer des espaces entre blocs de code pour améliorer la
-    lisibilité du code.
+    téléphone) alors [insérer des espaces](../exemples/champ-espaces.md) entre
+    blocs de code pour améliorer la lisibilité du code.
 15. Indiquer par un tooltips, ou un bouton (?) donnant une aide plus détaillée
     les champs dont le label risque de ne pas être bien compris.
 16. Indiquer par une asterisque (\*) les champs obligatoires.
