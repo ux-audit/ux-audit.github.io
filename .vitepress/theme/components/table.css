@@ -1,0 +1,30 @@
+@layer components {
+  table.nicetable {
+    @apply m-0 p-0;
+    @apply table border-2 border-gray-300;
+    @apply border-separate border-spacing-0 overflow-hidden rounded-md;
+
+    td,
+    tr,
+    th {
+      @apply m-0 border-0 bg-transparent;
+    }
+
+    thead {
+      @apply bg-gray-300;
+    }
+
+    tbody {
+      tr {
+        @apply cursor-pointer transition-none;
+        &:hover {
+          @apply bg-gray-200;
+        }
+
+        &.selected {
+          @apply bg-gray-300;
+        }
+      }
+    }
+  }
+}

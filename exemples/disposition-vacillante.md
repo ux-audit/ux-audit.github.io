@@ -20,8 +20,9 @@ C'est pas bon hein ? 😁
 Oui l'effet est un peu exagéré. Mais les vacillements sont plus nombreux qu'il y
 parait sur les interfaces et il faut les gommer.
 
-En anglais, vacillement se dit **flickering**. Il arrive notamment sous forme de
-CLS (Cumulative Layout Shift), en français vacillement de mise en page.
+En anglais, vacillement se dit **flickering**. Lorsque le vacillement concerne
+la mise en page (layout), on parle de **CLS (Cumulative Layout Shift)**, en
+français vacillement de mise en page.
 
 Cela arrive dans plusieurs cas :
 
@@ -33,6 +34,9 @@ avant, ils produiront des CLS.
 <FormulaireVacillant />
 
 ## Tableau et barre d'outils centrées
+
+Selectioner des lignes du tableau et constater le CLS quand les boutons sont
+centrés.
 
 <TableauEtBarreOutils />
 

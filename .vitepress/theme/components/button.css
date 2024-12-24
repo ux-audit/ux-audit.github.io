@@ -35,4 +35,8 @@
       @apply bg-[--vp-c-brand-2] text-white;
     }
   }
+
+  .btn-neutral {
+    @apply border-[--vp-c-gray-1] bg-[--vp-c-gray-1] text-black;
+  }
 }
