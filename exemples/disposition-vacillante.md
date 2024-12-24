@@ -35,8 +35,12 @@ avant, ils produiront des CLS.
 
 ## Tableau et barre d'outils centrées
 
-Selectioner des lignes du tableau et constater le CLS quand les boutons sont
-centrés.
+Selectioner des lignes du tableau pour faire apparaître le bouton "Supprimer".
+La contrainte de centrage va conduire les autres boutons à se décaler sur la
+gauche.
+
+Si les boutons sont alignés à gauche, alors il n'y a pas de problème de
+décalage, et donc pas de CLS.
 
 <TableauEtBarreOutils />
 
