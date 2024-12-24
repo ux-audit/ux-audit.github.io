@@ -1,0 +1,38 @@
+@layer components {
+  .btn {
+    @apply flex cursor-pointer items-center justify-center rounded-md px-4 py-2 text-[--vp-c-brand-1];
+    border: 2px solid var(--vp-c-brand-1);
+
+    &:hover {
+      @apply bg-[--vp-c-gray-3] text-[--vp-c-brand-1];
+    }
+  }
+
+  .btn.btn-primary {
+    @apply bg-[--vp-c-brand-1] text-white;
+    &:hover {
+      @apply bg-[--vp-c-brand-2] text-white;
+    }
+  }
+
+  .btn.btn-link {
+    @apply text-[--vp-c-brand-1];
+    border: 0px;
+    &:hover {
+      @apply bg-[--vp-c-gray-3];
+    }
+  }
+
+  .btn.btn-select {
+    &:hover {
+      @apply bg-[--vp-c-brand-3] text-white;
+    }
+  }
+
+  .btn-selected {
+    @apply bg-[--vp-c-brand-1] text-white;
+    &:hover {
+      @apply bg-[--vp-c-brand-2] text-white;
+    }
+  }
+}

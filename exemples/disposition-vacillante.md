@@ -4,6 +4,7 @@ outline: deep
 
 <script setup lang="ts">
 import LumiereVacillante from "./utils/LumiereVacillante.vue"
+import FormulaireVacillant from "./utils/FormulaireVacillant.vue"
 
 </script>
 
@@ -34,3 +35,5 @@ Suggestion de correction :
 - Aligner les boutons de barre d'outils à gauche ou à droite, mais ne pas les
   centrer.
 - Ne pas mettre de barre d'outils après un tableau dont la hauteur peut évoluer.
+
+<FormulaireVacillant />
