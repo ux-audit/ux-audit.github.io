@@ -114,7 +114,8 @@ paraisse pas difficile à achever.
    focus sur le suivant pour inviter l'utilisateur dans sa saisie.
 10. Lorsqu'un champ de saisie est complété et que sa valeur parait bonne
     vis-à-vis du métier, alors ne pas hésiter à l'indiquer et à féliciter
-    brièvement l'utilisateur (par un :heavy_check_mark:)
+    brièvement l'utilisateur (par un :heavy_check_mark:, ou un encadrement en
+    vert, etc.)
 11. Filtrage du clavier sur champ de saisie. Lorsqu'un champ de saisie accepte
     uniquement certains caractères, filtrer les touches claviers qui ne sont pas
     des valeurs permises. Exemple : ne pas laisser rentrer des caractères
@@ -126,8 +127,9 @@ paraisse pas difficile à achever.
 14. Si un champ de saisie correspond à un code (ex: numéro de sécu, carte bleue,
     téléphone) alors [insérer des espaces](../exemples/champ-espaces.md) entre
     blocs de code pour améliorer la lisibilité du code.
-15. Indiquer par un tooltips, ou un bouton (?) donnant une aide plus détaillée
-    les champs dont le label risque de ne pas être bien compris.
+15. Indiquer par un tooltips, ou un bouton d'aide (?)) donnant une aide plus
+    détaillée les champs dont le label risque de ne pas être bien compris.
+    [On peut aussi appliquer la technique du label secondaire](https://www.systeme-de-design.gouv.fr/composants-et-modeles/composants/champ-de-saisie#:~:text=Champ%20avec%20texte%20d%E2%80%99aide).
 16. Indiquer par une asterisque (\*) les champs obligatoires.
 
 :::

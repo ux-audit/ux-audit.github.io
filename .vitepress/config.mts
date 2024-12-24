@@ -136,6 +136,24 @@ export default defineConfig({
             text: "Disposition vacillante",
             link: "/exemples/disposition-vacillante",
           },
+          {
+            text: "Gestalt",
+            link: "/exemples/gestalt",
+            items: [
+              {
+                text: "Proximité",
+                link: "/exemples/gestalt/proximite",
+              },
+              {
+                text: "Contours",
+                link: "/exemples/gestalt/contours",
+              },
+              {
+                text: "Similitude",
+                link: "/exemples/gestalt/similitude",
+              },
+            ],
+          },
         ],
       },
     ],
