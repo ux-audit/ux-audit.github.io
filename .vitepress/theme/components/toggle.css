@@ -1,11 +1,11 @@
 @layer components {
   input[type="checkbox"].toggle {
-    @apply relative h-6 w-12 cursor-pointer appearance-none;
+    @apply relative block h-6 w-12 cursor-pointer appearance-none;
     &::before {
-      @apply absolute flex h-6 w-12 rounded-full border-[0.1rem] border-black content-['_'];
+      @apply absolute flex h-6 w-12 rounded-full border-[0.1rem] border-gray-400 content-['_'];
     }
     &::after {
-      @apply absolute bottom-[0.25rem] left-[0.25rem] flex h-4 w-4 rounded-full bg-black content-['_'];
+      @apply absolute bottom-[0.25rem] left-[0.25rem] flex h-4 w-4 rounded-full bg-gray-400 content-['_'];
     }
     &:checked {
       &::before {

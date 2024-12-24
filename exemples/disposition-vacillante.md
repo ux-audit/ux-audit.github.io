@@ -5,6 +5,7 @@ outline: deep
 <script setup lang="ts">
 import LumiereVacillante from "./utils/LumiereVacillante.vue"
 import FormulaireVacillant from "./utils/FormulaireVacillant.vue"
+import TableauEtBarreOutils from "./utils/TableauEtBarreOutils.vue"
 
 </script>
 
@@ -14,26 +15,29 @@ Vacillant ? Ca veut dire quoi ? Essayez la lumière vacillante :
 
 <LumiereVacillante />
 
-Une interface dont la mise en page change de manière non prévisible, parfois
-sans action de la part de l'utilisateur est souvent mal percue. C'est bien sûr
-plus discret que l'exemple de la lumière vacillante, mais si on peut réduire
-toutes les formes de vacillement c'est pas mal.
+C'est pas bon hein ? 😁
+
+Oui l'effet est un peu exagéré. Mais les vacillements sont plus nombreux qu'il y
+parait sur les interfaces et il faut les gommer.
+
+En anglais, vacillement se dit **flickering**. Il arrive notamment sous forme de
+CLS (Cumulative Layout Shift), en français vacillement de mise en page.
 
 Cela arrive dans plusieurs cas :
 
-- Apparition d'un message d'erreur, ou d'une publicité dans le flux de mise en
-  page et qui provoque ainsi un décalelement vers le bas.
-- Apparition de boutons supplémentaires dans une barre d'outil qui est centrée,
-  provoquant un décalage des autres boutons.
-- Un label de bouton dont la longueur change, et fait bouger la taille du
-  bouton.
+## Message d'erreurs ou publicités
 
-Suggestion de correction :
-
-- Prévoir les hauteurs des messages d'erreurs sous les champs à l'avance dans
-  les formulaires.
-- Aligner les boutons de barre d'outils à gauche ou à droite, mais ne pas les
-  centrer.
-- Ne pas mettre de barre d'outils après un tableau dont la hauteur peut évoluer.
+Si les espaces pour les messages d'erreurs ou publicité n'ont pas été réservés
+avant, ils produiront des CLS.
 
 <FormulaireVacillant />
+
+## Tableau et barre d'outils centrées
+
+<TableauEtBarreOutils />
+
+## Longueur de boutons non contrôlées
+
+Un label de bouton dont la longueur change, fait bouger la taille du bouton.
+
+<BoutonCLS />
