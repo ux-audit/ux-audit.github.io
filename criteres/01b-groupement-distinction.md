@@ -43,8 +43,8 @@ sont utilisées pour mettre ensemble ou au contraire distinguer des groupes.
    utilisé, etc.
 7. Considérer la loi de Hick : mettre moins de choix apparent, et intégrer les
    choix restants dans un menu "..."
-8. Préférer montrer une image avant le contenu, que ce soit en lecture verticale
-   ou horizontale.
+8. [Préférer montrer une image avant le contenu](../exemples/image-avant-texte),
+   que ce soit en lecture verticale ou horizontale.
 9. Attention au sens de lecture :
    - arabe/hébreux : toute la mise en page se met en miroir par rapport au
      latin, les images se mettent à droite de leur contenu, le futur est à

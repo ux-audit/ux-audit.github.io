@@ -12,7 +12,7 @@ hero:
       link: /criteres/introduction
     - theme: alt
       text: Examples
-      link: /exemples/introduction
+      link: /exemples
 
 features:
   - title: Guidage
@@ -29,7 +29,9 @@ features:
     link: /criteres/02-charge-de-travail
   - title: Contrôle explicite
     icon: 🚗
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+    details:
+      L'utilisateur doit toujours se sentir en contrôle de l'interface avec
+      laquelle il interagit, comme si c'était une voiture.
     link: /criteres/03-controle-explicite
   - title: Adaptabilité
     icon: ☃

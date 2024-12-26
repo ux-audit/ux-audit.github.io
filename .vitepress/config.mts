@@ -11,7 +11,7 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: "Critères", link: "/criteres/introduction" },
-      { text: "Exemples", link: "/exemples/introduction" },
+      { text: "Exemples", link: "/exemples" },
     ],
 
     sidebar: [
@@ -167,6 +167,10 @@ export default defineConfig({
             link: "/exemples/image-avant-texte",
           },
         ],
+      },
+      {
+        text: "Une interface c'est comme...",
+        link: "/une-interface-est-comme",
       },
     ],
 
