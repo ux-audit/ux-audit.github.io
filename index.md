@@ -60,7 +60,7 @@ features:
   - title: Compatibilité
     icon: 🚞
     details:
-      Une interface utilisateur, c'est comme une blague, si elle doit être
-      expliquée c'est qu'elle est ratée !
+      L'objectif de l'utilisateur peut-il être réalisé avec autant de facilité
+      que dans le monde réel ? L'utilité de l'application est-il trivial ?
     link: /criteres/08-compatibilite
 ---
