@@ -35,22 +35,32 @@ features:
     link: /criteres/03-controle-explicite
   - title: Adaptabilité
     icon: ☃
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+    details:
+      L'interface doit pouvoir s'adapter aux différents utilisateurs, à leurs
+      différents objectifs, et à leurs différents contexte.
     link: /criteres/04-adaptabilite
   - title: Gestion des erreurs
     icon: 💥
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+    details:
+      Gérer veut dire ici, savoir les éviter par un guidage suffisant, les
+      afficher avec délicatesse, et permettre leur correction.
     link: /criteres/05-gestion-erreurs
   - title: Homogénéité et cohérence
     icon: 🍔
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+    details:
+      Réduire la charge d'apprentissage en réutilisant les même schémas dès que
+      le contexte le permet.
     link: /criteres/06-homogeneite-coherence
   - title: Signifiance des codes et dénomination
     icon: 🥐
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+    details:
+      Etre compris par ceux qui utilisent vraiment l'interface, c'est mieux que
+      l'inverse.
     link: /criteres/07-signifiance-denomination
   - title: Compatibilité
     icon: 🚞
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+    details:
+      Une interface utilisateur, c'est comme une blague, si elle doit être
+      expliquée c'est qu'elle est ratée !
     link: /criteres/08-compatibilite
 ---
