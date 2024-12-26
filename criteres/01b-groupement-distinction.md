@@ -41,8 +41,8 @@ sont utilisées pour mettre ensemble ou au contraire distinguer des groupes.
 6. Dans une liste, préférer un ordre cohérent : alphabétique, ou du plus
    recent/ancien, ou du plus grand au plus petit, ou du plus utilisé au moins
    utilisé, etc.
-7. Considérer la loi de Hick : mettre moins de choix apparent, et intégrer les
-   choix restants dans un menu "..."
+7. Considérer la loi de Hick : mettre moins de choix apparent, et
+   [intégrer les choix restants dans un menu "..."](../exemples/bouton-etcetera)
 8. [Préférer montrer une image avant le contenu](../exemples/image-avant-texte),
    que ce soit en lecture verticale ou horizontale.
 9. Attention au sens de lecture :
@@ -75,8 +75,8 @@ sont utilisées pour mettre ensemble ou au contraire distinguer des groupes.
 2. Plonger le réel dans l'écran. Exemple : vous voulez afficher un ticket de
    cinema ? Alors mettez un ticket de cinema à l'écran... et l'utilisateur verra
    un ticket de cinema sans que ce soit besoin d'écrire "Ticket de cinema".
-3. Utiliser des formes convaincantes et distinctes selon la nature, par exemple
-   :
+3. [Utiliser des formes convaincantes et distinctes](../exemples/gestalt/bonne-forme)
+   selon la nature, par exemple :
 
    - Faire des champs de saisie qui se ressemblent.
    - Faire des labels qui se ressemblent.

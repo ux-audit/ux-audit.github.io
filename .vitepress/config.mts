@@ -166,6 +166,10 @@ export default defineConfig({
             text: "Image avant texte",
             link: "/exemples/image-avant-texte",
           },
+          {
+            text: "Bouton « etcetera »",
+            link: "/exemples/bouton-etcetera",
+          },
         ],
       },
       {
