@@ -4,6 +4,7 @@ outline: deep
 
 <script setup lang="ts">
 import FormulaireSimilitude from "../utils/FormulaireSimilitude.vue"
+import RegroupementParSimilarite from "../utils/RegroupementParSimilarite.vue"
 
 </script>
 
@@ -45,3 +46,15 @@ Dans cet exemple, on a mis un peu trop de similarité entre label, champ et
 boutons.
 
 <FormulaireSimilitude />
+
+## Regroupement par similarité
+
+Lors d'une recherche visuelle parmi un ensemble d'éléments il est bien que
+certains attributs de ces éléments soit différenciés visuellement, par la
+couleur, l'intensité, la taille, la forme ou autre.
+
+Par exemple dans cette liste de véhicules, on distingue plus facilement les
+différents type de véhicule par une icône et une couleur différente : le texte
+ne suffit pas.
+
+<RegroupementParSimilarite />
