@@ -152,6 +152,10 @@ export default defineConfig({
                 text: "Similitude",
                 link: "/exemples/gestalt/similitude",
               },
+              {
+                text: "Bonne forme",
+                link: "/exemples/gestalt/bonne-forme",
+              },
             ],
           },
         ],
