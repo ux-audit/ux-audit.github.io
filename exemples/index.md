@@ -2,9 +2,9 @@
 outline: deep
 ---
 
-# Introduction aux exemples
+# Exemples
 
-Vaut mieux montrer qu'expliquer.
+> Vaut mieux montrer qu'expliquer.
 
 Cette section montre un certain nombre d'exemples illustrant les astuces des
 différents critères exposés dans la section précédente.

@@ -112,8 +112,8 @@ export default defineConfig({
       },
       {
         text: "Exemples",
+        link: "/exemples/index",
         items: [
-          { text: "Introduction aux exemples", link: "/exemples/introduction" },
           { text: "Label au dessus", link: "/exemples/label_dessus" },
           { text: "Prépositionner", link: "/exemples/prepositionner" },
           {
