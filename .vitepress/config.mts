@@ -189,4 +189,7 @@ export default defineConfig({
       copyright: `Copyright © 2019-${new Date().getFullYear()} Jean-Louis GUENEGO`,
     },
   },
+  sitemap: {
+    hostname: "https://ux-audit.github.io",
+  },
 });
