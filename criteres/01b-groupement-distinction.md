@@ -30,33 +30,34 @@ sont utilisées pour mettre ensemble ou au contraire distinguer des groupes.
 
 ::: tip Astuces 😊
 
-1. Identifier les bugs de loi de proximité.
-2. Identifier les bugs de loi de contour.
-3. Identifier les bugs de loi de similitude.
-4. Dans une liste, mettre les choix les plus spécifiques en premier et les plus
-   généraux en dernier. Pour éviter que l'utilisateur choisissent une solution
-   générale sans avoir vu qu'une solution plus spécifique lui correspondait
-   mieux.
-5. Dans une liste, préférer un ordre cohérent : alphabétique, ou du plus
+1. Identifier les bugs de [loi de proximité](../exemples/gestalt/proximite).
+2. Identifier les bugs de [loi de contour](../exemples/gestalt/contours).
+3. Identifier les bugs de [loi de similitude](../exemples/gestalt/similitude).
+4. Identifier les bugs de [bonne forme](../exemples/gestalt/bonne-forme).
+5. Dans une liste, mettre les choix les plus spécifiques en premier et les plus
+   généraux et primaire en dernier. Pour éviter que l'utilisateur
+   [choisisse une solution générale sans avoir vu qu'une solution plus spécifique](../exemples/ordre-choix)
+   lui correspondait mieux.
+6. Dans une liste, préférer un ordre cohérent : alphabétique, ou du plus
    recent/ancien, ou du plus grand au plus petit, ou du plus utilisé au moins
    utilisé, etc.
-6. Considérer la loi de Hick : mettre moins de choix apparent, et intégrer les
+7. Considérer la loi de Hick : mettre moins de choix apparent, et intégrer les
    choix restants dans un menu "..."
-7. Préférer montrer une image avant le contenu, que ce soit en lecture verticale
+8. Préférer montrer une image avant le contenu, que ce soit en lecture verticale
    ou horizontale.
-8. Attention au sens de lecture :
+9. Attention au sens de lecture :
    - arabe/hébreux : toute la mise en page se met en miroir par rapport au
      latin, les images se mettent à droite de leur contenu, le futur est à
      gauche tandis que le passé est à droite.
    - vertical : les images se mettent au dessus de leur contenu, le futur est en
      bas, tandis que le passé est en haut.
-9. Aérer l'interface en partant de grosses valeurs d'espacement et faites les
-   réduires jusqu'à une taille visuellement acceptable.
-10. Utiliser moins de bordure et plus d'espacement. Privilégier la loi de
+10. Aérer l'interface en partant de grosses valeurs d'espacement et faites les
+    réduires jusqu'à une taille visuellement acceptable.
+11. Utiliser moins de bordure et plus d'espacement. Privilégier la loi de
     proximité à la loi de contour.
-11. Utiliser des flèches ou chevron de direction, le futur est à droite pour le
+12. Utiliser des flèches ou chevron de direction, le futur est à droite pour le
     latin, à gauche pour l'hébreu et l'arabe.
-12. Le pied de page est un marqueur visuel, ne pas l'oublier de l'ajouter si
+13. Le pied de page est un marqueur visuel, ne pas l'oublier de l'ajouter si
     l'utilisateur a des doutes de bien être en bas de l'écran.
 
 :::

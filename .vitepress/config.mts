@@ -158,6 +158,14 @@ export default defineConfig({
               },
             ],
           },
+          {
+            text: "Présentation des choix",
+            link: "/exemples/ordre-choix",
+          },
+          {
+            text: "Image avant texte",
+            link: "/exemples/image-avant-texte",
+          },
         ],
       },
     ],
