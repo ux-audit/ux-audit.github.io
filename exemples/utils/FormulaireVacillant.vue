@@ -35,7 +35,7 @@ watchEffect(() => {
         type="text"
         name="lastname"
         v-model="lastname"
-        class="rounded-md bg-gray-200 p-2"
+        class="rounded-md bg-[--vp-c-gray-1] p-2"
         placeholder="Ex: GUENEGO"
       />
       <span class="flex font-bold" :class="correctCLS && 'h-6'">{{
@@ -48,7 +48,7 @@ watchEffect(() => {
         type="text"
         name="firstname"
         v-model="firstname"
-        class="rounded-md bg-gray-200 p-2"
+        class="rounded-md bg-[--vp-c-gray-1] p-2"
         placeholder="Ex: Jean-Louis"
       />
       <span class="flex font-bold" :class="correctCLS && 'h-6'">{{

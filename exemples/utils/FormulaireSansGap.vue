@@ -22,7 +22,7 @@ const correctGap = ref(false);
       <input
         type="text"
         name="lastname"
-        class="rounded-md bg-gray-200 p-2"
+        class="rounded-md bg-[--vp-c-gray-1] p-2"
         placeholder="Ex: GUENEGO"
       />
     </label>
@@ -31,7 +31,7 @@ const correctGap = ref(false);
       <input
         type="text"
         name="firstname"
-        class="rounded-md bg-gray-200 p-2"
+        class="rounded-md bg-[--vp-c-gray-1] p-2"
         placeholder="Ex: Jean-Louis"
       />
     </label>
@@ -40,7 +40,7 @@ const correctGap = ref(false);
       <input
         type="text"
         name="firstname"
-        class="rounded-md bg-gray-200 p-2"
+        class="rounded-md bg-[--vp-c-gray-1] p-2"
         placeholder="Ex: JLG Consulting"
       />
     </label>
@@ -49,7 +49,7 @@ const correctGap = ref(false);
       <input
         type="text"
         name="firstname"
-        class="rounded-md bg-gray-200 p-2"
+        class="rounded-md bg-[--vp-c-gray-1] p-2"
         placeholder="Ex: Consultant UX"
       />
     </label>

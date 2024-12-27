@@ -40,7 +40,10 @@ const correctSimilarite = ref(false);
       />
     </label>
     <div class="flex flex-wrap justify-center gap-2 bg-gray-500 p-2">
-      <div v-for="v in vehicules" class="w-28 rounded-lg bg-white p-2">
+      <div
+        v-for="v in vehicules"
+        class="w-28 rounded-lg bg-[--vp-c-neutral-inverse] p-2"
+      >
         <div v-if="!correctSimilarite">{{ v.type }}</div>
         <div v-else class="flex items-center gap-2">
           <FaIcon

@@ -41,7 +41,7 @@ const handleClick = (choice: string) => {
     <span class="">{{ props.field.label }}</span>
     <input
       type="date"
-      class="w-full rounded-md bg-gray-200 p-2"
+      class="w-full rounded-md bg-[--vp-c-gray-1] p-2"
       v-model="model"
     />
   </label>

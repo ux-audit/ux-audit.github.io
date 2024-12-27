@@ -21,9 +21,9 @@ const back = () => {
 </script>
 
 <template>
-  <div class="max-w-96 bg-gray-300 p-2">
+  <div class="max-w-96 bg-[--vp-c-gray-1] p-2">
     <div
-      class="flex flex-col bg-white p-2 shadow-2xl"
+      class="flex flex-col bg-[--vp-c-neutral-inverse] p-2 shadow-2xl"
       v-if="paymentMethod === undefined"
     >
       <div>Choisissez une méthode de paiement :</div>
@@ -38,7 +38,10 @@ const back = () => {
         </template>
       </div>
     </div>
-    <div v-else class="flex flex-col bg-white p-2 shadow-2xl">
+    <div
+      v-else
+      class="flex flex-col bg-[--vp-c-neutral-inverse] p-2 shadow-2xl"
+    >
       <div @click="back()" class="cursor-pointer">&lt; Retour</div>
       <form
         v-if="paymentMethod === 'Carte Bancaire'"
@@ -47,16 +50,22 @@ const back = () => {
         <div class="flex flex-col gap-2">
           <label class="flex flex-col">
             <span>Numéro CB*</span>
-            <input type="text" class="rounded-md bg-gray-200 p-2" />
+            <input type="text" class="rounded-md bg-[--vp-c-gray-1] p-2" />
           </label>
           <div class="flex justify-between">
             <label class="flex flex-col">
               <span>Expire le </span>
-              <input type="text" class="w-24 rounded-md bg-gray-200 p-2" />
+              <input
+                type="text"
+                class="w-24 rounded-md bg-[--vp-c-gray-1] p-2"
+              />
             </label>
             <label class="flex flex-col">
               <span>CVC*</span>
-              <input type="text" class="w-24 rounded-md bg-gray-200 p-2" />
+              <input
+                type="text"
+                class="w-24 rounded-md bg-[--vp-c-gray-1] p-2"
+              />
             </label>
           </div>
         </div>

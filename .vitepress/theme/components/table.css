@@ -11,18 +11,18 @@
     }
 
     thead {
-      @apply bg-gray-300;
+      @apply bg-[--vp-c-gray-1];
     }
 
     tbody {
       tr {
         @apply cursor-pointer transition-none;
         &:hover {
-          @apply bg-gray-200;
+          @apply bg-[--vp-c-gray-1];
         }
 
         &.selected {
-          @apply bg-gray-300;
+          @apply bg-[--vp-c-gray-1];
         }
       }
     }

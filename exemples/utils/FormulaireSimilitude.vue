@@ -25,7 +25,7 @@ const correctGap = ref(false);
         type="text"
         name="lastname"
         class="rounded-md p-2"
-        :class="correctGap && 'bg-gray-200'"
+        :class="correctGap && 'bg-[--vp-c-gray-1]'"
         placeholder="Ex: GUENEGO"
       />
     </label>
@@ -35,7 +35,7 @@ const correctGap = ref(false);
         type="text"
         name="firstname"
         class="rounded-md p-2"
-        :class="correctGap && 'bg-gray-200'"
+        :class="correctGap && 'bg-[--vp-c-gray-1]'"
         placeholder="Ex: Jean-Louis"
       />
     </label>
@@ -45,7 +45,7 @@ const correctGap = ref(false);
         type="text"
         name="firstname"
         class="rounded-md p-2"
-        :class="correctGap && 'bg-gray-200'"
+        :class="correctGap && 'bg-[--vp-c-gray-1]'"
         placeholder="Ex: JLG Consulting"
       />
     </label>
@@ -55,7 +55,7 @@ const correctGap = ref(false);
         type="text"
         name="firstname"
         class="rounded-md p-2"
-        :class="correctGap && 'bg-gray-200'"
+        :class="correctGap && 'bg-[--vp-c-gray-1]'"
         placeholder="Ex: Consultant UX"
       />
     </label>
