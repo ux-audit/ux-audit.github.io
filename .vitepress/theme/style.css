@@ -7,7 +7,7 @@
 @tailwind utilities;
 
 .blackBackground {
-  background-color: black;
-  color: white;
+  background-color: var(--vp-c-neutral);
+  color: var(--vp-c-neutral-inverse);
   transition: all 0.2s;
 }
