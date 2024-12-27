@@ -28,7 +28,9 @@ const select = (id: string) => {
 </script>
 
 <template>
-  <form class="flex max-w-96 flex-col gap-2 rounded-md border border-black p-4">
+  <form
+    class="flex max-w-96 flex-col gap-2 rounded-md border border-[--vp-c-neutral] p-4"
+  >
     <label class="flex h-8 items-center justify-between">
       <span class="shrink-1 grow">
         {{ correctCLS ? "✔ Plus de CLS" : "❌ CLS boutons centrés" }}</span

@@ -5,7 +5,9 @@ const correction = ref(false);
 </script>
 
 <template>
-  <form class="flex max-w-96 flex-col rounded-md border border-black p-4">
+  <form
+    class="flex max-w-96 flex-col rounded-md border border-[--vp-c-neutral] p-4"
+  >
     <label class="flex items-center justify-between">
       <span class="shrink-1 grow">
         {{
@@ -16,7 +18,7 @@ const correction = ref(false);
     </label>
     <label
       class="flex flex-col rounded-md border"
-      :class="correction ? 'border-black' : 'border-transparent'"
+      :class="correction ? 'border-[--vp-c-neutral]' : 'border-transparent'"
     >
       <span>Nom*</span>
       <input
@@ -28,7 +30,7 @@ const correction = ref(false);
     </label>
     <label
       class="flex flex-col rounded-md border"
-      :class="correction ? 'border-black' : 'border-transparent'"
+      :class="correction ? 'border-[--vp-c-neutral]' : 'border-transparent'"
     >
       <span>Prénom*</span>
       <input
@@ -40,7 +42,7 @@ const correction = ref(false);
     </label>
     <label
       class="flex flex-col rounded-md border"
-      :class="correction ? 'border-black' : 'border-transparent'"
+      :class="correction ? 'border-[--vp-c-neutral]' : 'border-transparent'"
     >
       <span>Entreprise*</span>
       <input
@@ -52,7 +54,7 @@ const correction = ref(false);
     </label>
     <label
       class="flex flex-col rounded-md border"
-      :class="correction ? 'border-black' : 'border-transparent'"
+      :class="correction ? 'border-[--vp-c-neutral]' : 'border-transparent'"
     >
       <span>Fonction*</span>
       <input

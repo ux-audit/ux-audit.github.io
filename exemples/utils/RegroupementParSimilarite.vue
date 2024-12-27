@@ -24,7 +24,7 @@ const correctSimilarite = ref(false);
 <template>
   <div class="max-w-96">
     <label
-      class="flex items-center justify-between rounded-t-lg border border-black p-2"
+      class="flex items-center justify-between rounded-t-lg border border-[--vp-c-neutral] p-2"
     >
       <span class="shrink-1 grow">
         {{

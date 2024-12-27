@@ -7,7 +7,7 @@ const correctGap = ref(false);
 <template>
   <form
     class="flex max-w-96 flex-col gap-2 p-4"
-    :class="correctGap && 'rounded-md border border-black'"
+    :class="correctGap && 'rounded-md border border-[--vp-c-neutral]'"
   >
     <label class="flex items-center justify-between">
       <span class="shrink-1 grow">

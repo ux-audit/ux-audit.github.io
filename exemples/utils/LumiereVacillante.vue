@@ -22,7 +22,7 @@ watchEffect(() => {
 
 <template>
   <label
-    class="flex max-w-72 items-center justify-between rounded-md border-2 border-black p-4"
+    class="flex max-w-72 items-center justify-between rounded-md border-2 border-[--vp-c-neutral] p-4"
   >
     <span>Lumière vacillante</span>
     <input type="checkbox" v-model="isFleckering" class="toggle" />
