@@ -36,8 +36,8 @@ const selectAutre = () => {
           <button class="btn btn-primary">Carte Bleue</button>
           <button class="btn btn-secondary">Paypal</button>
           <button class="btn btn-neutral" @click="selectAutre()">
-            <span>Autres ... </span
-            ><FaIcon :icon="showOthers ? faChevronUp : faChevronDown" />
+            <span>Autres... </span>
+            <FaIcon :icon="showOthers ? faChevronUp : faChevronDown" />
           </button>
           <template v-if="showOthers">
             <button class="btn btn-secondary">Google Pay</button>

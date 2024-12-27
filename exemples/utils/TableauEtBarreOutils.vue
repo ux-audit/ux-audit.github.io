@@ -1,6 +1,5 @@
 <script setup lang="ts">
 import {
-  faPen,
   faPlus,
   faRotateRight,
   faTrashAlt,
@@ -49,6 +48,7 @@ const select = (id: string) => {
         <button class="btn btn-neutral" title="Ajouter">
           <FaIcon :icon="faPlus" />
         </button>
+
         <button
           class="btn btn-neutral"
           title="Supprimer"
@@ -70,11 +70,12 @@ const select = (id: string) => {
             v-for="a in articles"
             :key="a.id"
             @click="select(a.id)"
+            class="selectable"
             :class="selectedIds.has(a.id) && 'selected'"
           >
             <td class="name">{{ a.name }}</td>
-            <td class="name">{{ a.price }}</td>
-            <td class="name">{{ a.qty }}</td>
+            <td class="name text-right">{{ a.price }}</td>
+            <td class="name text-right">{{ a.qty }}</td>
           </tr>
         </tbody>
       </table>

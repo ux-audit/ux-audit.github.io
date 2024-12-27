@@ -16,13 +16,18 @@
 
     tbody {
       tr {
-        @apply cursor-pointer transition-none;
-        &:hover {
-          @apply bg-[--vp-c-gray-1];
-        }
+        @apply transition-none;
 
-        &.selected {
-          @apply bg-[--vp-c-gray-1];
+        &.selectable {
+          @apply cursor-pointer;
+
+          &:hover {
+            @apply bg-[--vp-c-gray-3];
+          }
+
+          &.selected {
+            @apply bg-[--vp-c-gray-1];
+          }
         }
       }
     }

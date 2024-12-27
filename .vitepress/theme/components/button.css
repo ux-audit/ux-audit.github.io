@@ -1,6 +1,6 @@
 @layer components {
   .btn {
-    @apply flex cursor-pointer items-center justify-center rounded-md px-4 py-2 text-[--vp-c-brand-1];
+    @apply flex cursor-pointer items-center justify-center gap-2 rounded-md px-4 py-2 text-[--vp-c-brand-1];
     border: 2px solid var(--vp-c-brand-1);
 
     &:hover {
@@ -38,5 +38,14 @@
 
   .btn-neutral {
     @apply border-[--vp-c-gray-1] bg-[--vp-c-gray-1] text-black;
+  }
+
+  .btn.btn-danger {
+    border: 2px solid var(--vp-c-danger-1);
+    @apply bg-[--vp-c-danger-1] text-white;
+    &:hover {
+      border: 2px solid var(--vp-c-danger-2);
+      @apply bg-[--vp-c-danger-2] text-white;
+    }
   }
 }
