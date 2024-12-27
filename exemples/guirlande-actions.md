@@ -13,7 +13,8 @@ import TableauArticles from "./utils/TableauArticles.vue";
 Parfois l'interface doit afficher une liste d'éléments et souhaite offrir à
 l'utilisateur la possibilité d'exercer des actions pour chaque élément.
 
-Cela se traduit par exemple par ce visuel avec plein de boutons par ligne :
+Cela se traduit par exemple par ce visuel chargé avec plein de boutons par ligne
+:
 
 ❌ <GuirlandeActions />
 
