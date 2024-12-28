@@ -3,8 +3,8 @@ outline: deep
 ---
 
 <script setup lang="ts">
-import BadCHeckBox from "./components/BadCHeckBox.vue";
-import GoodCHeckBox from "./components/GoodCHeckBox.vue";
+import BadCHeckBox from "./components/BadCheckBox.vue";
+import GoodCHeckBox from "./components/GoodCheckBox.vue";
 
 </script>
 
