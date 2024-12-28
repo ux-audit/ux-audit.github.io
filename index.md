@@ -9,7 +9,7 @@ hero:
   actions:
     - theme: brand
       text: Démarrer
-      link: /criteres/introduction
+      link: /criteres
     - theme: alt
       text: Examples
       link: /exemples

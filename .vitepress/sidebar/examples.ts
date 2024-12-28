@@ -3,67 +3,82 @@ import { DefaultTheme } from "vitepress";
 export const sidebarExamples: DefaultTheme.Sidebar = [
   {
     text: "Exemples",
-    link: "/exemples/index",
+    base: "/exemples",
+    link: "/",
     items: [
-      { text: "Label au dessus", link: "/exemples/label_dessus" },
-      { text: "Prépositionner", link: "/exemples/prepositionner" },
+      { text: "Label au dessus", link: "/label_dessus" },
+      { text: "Prépositionner", link: "/prepositionner" },
       {
         text: "Boutons primaires et secondaires",
-        link: "/exemples/boutons-primaires-et-secondaires",
+        link: "/boutons-primaires-et-secondaires",
       },
       {
         text: "Eviter oui/non",
-        link: "/exemples/eviter-oui-non",
+        link: "/eviter-oui-non",
       },
       {
         text: "Divulgation progressive",
-        link: "/exemples/divulgation-progressive",
+        link: "/divulgation-progressive",
       },
       {
         text: "Champ avec espaces",
-        link: "/exemples/champ-espaces",
+        link: "/champ-espaces",
       },
       {
         text: "Disposition vacillante",
-        link: "/exemples/disposition-vacillante",
+        link: "/disposition-vacillante",
       },
       {
         text: "Gestalt",
-        link: "/exemples/gestalt",
+        link: "/gestalt",
         items: [
           {
             text: "Proximité",
-            link: "/exemples/gestalt/proximite",
+            link: "/gestalt/proximite",
           },
           {
             text: "Contours",
-            link: "/exemples/gestalt/contours",
+            link: "/gestalt/contours",
           },
           {
             text: "Similitude",
-            link: "/exemples/gestalt/similitude",
+            link: "/gestalt/similitude",
           },
           {
             text: "Bonne forme",
-            link: "/exemples/gestalt/bonne-forme",
+            link: "/gestalt/bonne-forme",
           },
         ],
       },
       {
         text: "Présentation des choix",
-        link: "/exemples/ordre-choix",
+        link: "/ordre-choix",
       },
       {
         text: "Image avant texte",
-        link: "/exemples/image-avant-texte",
+        link: "/image-avant-texte",
       },
       {
         text: "Bouton « etcetera »",
-        link: "/exemples/bouton-etcetera",
+        link: "/bouton-etcetera",
       },
       {
         text: "Guirlande d'actions",
-        link: "/exemples/guirlande-actions",
+        link: "/guirlande-actions",
+      },
+      {
+        text: "Loi de Fitts",
+        link: "/loi-de-fitts",
+        items: [
+          {
+            text: "Taille",
+            link: "/loi-de-fitts/taille",
+          },
+          {
+            text: "Distance",
+            link: "/loi-de-fitts/distance",
+          },
+        ],
       },
     ],
   },

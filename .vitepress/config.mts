@@ -11,7 +11,7 @@ export default defineConfig({
     logo: "/logo.svg",
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: "Critères", link: "/criteres/introduction" },
+      { text: "Critères", link: "/criteres" },
       { text: "Exemples", link: "/exemples" },
     ],
 
@@ -19,8 +19,8 @@ export default defineConfig({
       {
         text: "Critères",
         base: "/criteres",
+        link: "/",
         items: [
-          { text: "Introduction", link: "/introduction" },
           { text: "Préliminaires", link: "/preliminaires" },
           {
             text: "Guidage",

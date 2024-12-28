@@ -2,7 +2,7 @@
 outline: deep
 ---
 
-# Introduction
+# Critères
 
 Ce site a pour objectif d'aider un consultant UX à trouver des points
 d'amélioration d'interfaces existante. Cette activité s'appelle la réalisation
