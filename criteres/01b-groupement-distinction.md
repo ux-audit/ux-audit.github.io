@@ -70,7 +70,9 @@ sont utilisées pour mettre ensemble ou au contraire distinguer des groupes.
 
 - Préférer les boutons qui contourent le choix plutôt que les cases à cocher ou
   les boutons radio
-- Si boutons radio ou case à cocher alors agrandir les surfaces cliquables
+- Si boutons radio ou case à cocher alors
+  [agrandir les surfaces cliquables](../exemples/loi-de-fitts/taille)
+- [Eviter les zones d'actions trop distantes des zones de lecture associées](../exemples/loi-de-fitts/distance)
 
 2. Plonger le réel dans l'écran. Exemple : vous voulez afficher un ticket de
    cinema ? Alors mettez un ticket de cinema à l'écran... et l'utilisateur verra
