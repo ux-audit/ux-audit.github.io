@@ -1,6 +1,4 @@
-<script setup lang="ts">
-import { useData } from "vitepress";
-</script>
+<script setup lang="ts"></script>
 
 <template>
   <label
