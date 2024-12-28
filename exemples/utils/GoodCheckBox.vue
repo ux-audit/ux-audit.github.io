@@ -1,14 +1,12 @@
 <script setup lang="ts">
 import { useData } from "vitepress";
-
-const { isDark } = useData();
 </script>
 
 <template>
   <label
     class="flex cursor-pointer gap-2 rounded-md border border-[--vp-c-gray-1] p-2"
   >
-    <input type="checkbox" v-model="isDark" />
-    <span>Activer le dark thème</span>
+    <input type="checkbox" name="rien" class="checkbox" />
+    <span>Activer un truc de rien du tout</span>
   </label>
 </template>
