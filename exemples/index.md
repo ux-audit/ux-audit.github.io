@@ -12,7 +12,3 @@ différents critères exposés dans la section précédente.
 Attention ce ne sont que des recommandations, même des suggestions, c'est à dire
 qu'on devrait les suivre mais peut-être pas tout le temps. C'est pour cela que
 parfois on soulignera des contre-exemples.
-
-## Auteur
-
-Jean-Louis GUENEGO, 2024
