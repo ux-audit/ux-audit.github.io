@@ -13,6 +13,9 @@ hero:
     - theme: alt
       text: Examples
       link: /exemples
+    - theme: alt
+      text: Articles
+      link: /articles
 
 features:
   - title: Guidage

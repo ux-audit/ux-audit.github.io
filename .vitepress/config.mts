@@ -13,6 +13,7 @@ export default defineConfig({
     nav: [
       { text: "Critères", link: "/criteres" },
       { text: "Exemples", link: "/exemples" },
+      { text: "Articles", link: "/articles" },
     ],
 
     sidebar: [
@@ -113,8 +114,19 @@ export default defineConfig({
       },
       sidebarExamples[0],
       {
-        text: "Une interface c'est comme...",
-        link: "/une-interface-est-comme",
+        text: "Articles",
+        base: "/articles",
+        link: "/",
+        items: [
+          {
+            text: "Une interface c'est comme...",
+            link: "/une-interface-est-comme",
+          },
+          {
+            text: "Bibliographie",
+            link: "/bibliographie",
+          },
+        ],
       },
     ],
 
