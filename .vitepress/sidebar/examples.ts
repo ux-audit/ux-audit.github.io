@@ -80,6 +80,10 @@ export const sidebarExamples: DefaultTheme.Sidebar = [
           },
         ],
       },
+      {
+        text: "Distance entre boutons",
+        link: "/distance-entre-boutons",
+      },
     ],
   },
 ];
