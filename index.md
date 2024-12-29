@@ -5,7 +5,7 @@ layout: home
 hero:
   name: "UX Audit"
   text: "Améliorer vos interfaces"
-  tagline: En appliquant la liste des critères ergonomiques
+  tagline: En appliquant la liste des critères ergonomiques et leurs exemples
   actions:
     - theme: brand
       text: Démarrer
