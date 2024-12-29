@@ -23,7 +23,7 @@ aient des tailles minimum et soit un peu distant entre eux.
 5. Prévoir des actions "undo"/"redo"
 6. Prévoir une taille minimum pour les boutons
 7. Augmenter la surface clickable au label.
-8. Prévoir un minimum de distance entre les boutons.
+8. [Prévoir un minimum de distance entre les boutons](../exemples/distance-entre-boutons).
 9. Si une carte a une image, du texte et seulement une action, alors faire que
    l'action soit le clic sur la carte elle-même, même si il y a un visuel de
    bouton.
