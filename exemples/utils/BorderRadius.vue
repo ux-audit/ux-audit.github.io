@@ -31,12 +31,12 @@
         Un petit caillou...
       </div>
       <div
-        class="gallet-2 -mx-2 flex h-40 w-40 items-center justify-center rounded bg-yellow-500 p-8 text-white mix-blend-multiply"
+        class="gallet-2 -mx-2 flex h-40 w-40 items-center justify-center bg-yellow-500 p-8 text-white mix-blend-multiply"
       >
         ...un deuxième...
       </div>
       <div
-        class="gallet-3 -mx-2 flex h-40 w-40 items-center justify-center rounded-xl bg-red-400 p-8 text-white mix-blend-multiply"
+        class="gallet-3 -mx-2 flex h-40 w-40 items-center justify-center bg-red-400 p-8 text-white mix-blend-multiply"
       >
         ...Et plouf !
       </div>
