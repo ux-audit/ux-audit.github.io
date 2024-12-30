@@ -31,7 +31,7 @@ un processus.
 ::: tip Astuces 😊
 
 1. Utiliser des boutons à taille suffisamment grosses pour cliquer dessus
-   agréablement. C'est la loi de Fitts.
+   agréablement. [C'est la loi de Fitts](../exemples/loi-de-fitts/).
 2. Utiliser de préférence des boutons avec un "border radius" sauf si le site
    est jugé formel. Les utilisateurs, inconsciemment n'aiment pas cliquer sur
    des choses pointues.
