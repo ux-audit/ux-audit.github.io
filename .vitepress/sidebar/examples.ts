@@ -30,7 +30,8 @@ export const sidebarExamples: DefaultTheme.Sidebar = [
       },
       {
         text: "Gestalt",
-        link: "/gestalt",
+        link: "/gestalt/index.md",
+        collapsed: true,
         items: [
           {
             text: "Proximité",
@@ -68,7 +69,8 @@ export const sidebarExamples: DefaultTheme.Sidebar = [
       },
       {
         text: "Loi de Fitts",
-        link: "/loi-de-fitts",
+        link: "/loi-de-fitts/index.md",
+        collapsed: true,
         items: [
           {
             text: "Taille",
