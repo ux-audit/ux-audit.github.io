@@ -21,3 +21,4 @@ import BorderRadius from './utils/BorderRadius.vue'
 
 - https://www.ux-republic.com/quel-border-radius-adopter-pour-vos-cta-copy/
 - https://www.youtube.com/watch?v=D53P6odrwnk
+- https://9elements.github.io/fancy-border-radius/
